@@ -15,7 +15,7 @@ public class Bai7_HinhChuNhatHinhTron {
         System.out.println("Chuong Trinh Tinh Hinh Chu Nhat Va Hinh Tron");
         Scanner nhap = new Scanner(System.in);
         double bankinh, pi = Math.PI, chuvi, dientich;
-        double dientichhinhchunhat, chieudai, chieurong;
+        double dientichhinhchunhat,chuvihinhchunhat, chieudai, chieurong;
         System.out.println("Nhap Ban Kinh");
         bankinh = nhap.nextDouble();
         chuvi = 2 * pi * bankinh;
@@ -28,6 +28,8 @@ public class Bai7_HinhChuNhatHinhTron {
         System.out.println("Nhap Chieu Rong Hinh Chu Nhat: ");
         chieurong = nhap.nextDouble();
         dientichhinhchunhat = chieudai * chieurong;
+        chuvihinhchunhat = 2 * (chieudai + chieurong);
         System.out.printf("Dien Tich Hinh Chu Nhat = %f\n", dientichhinhchunhat);
+        System.out.printf("Chu Vi Hinh Chu Nhat = %f\n", chuvihinhchunhat);
     }
 }
