@@ -14,5 +14,6 @@ public class Bai2_TinhTong {
         int a=10, b=9;
         int tong = a + b;
         System.out.println("Tong = " + tong);
+        System.out.printf("Tong = %d", tong);
     }
 }
