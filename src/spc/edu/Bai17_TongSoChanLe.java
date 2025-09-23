@@ -17,8 +17,8 @@ public class Bai17_TongSoChanLe {
     public static void main(String[] args) {
         System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8)); //gõ tiếng việt có dấu
         System.out.println("Chương Trình Tính Tổng Chằng Lẻ");
-        System.out.println("Tổng Chẳng "+ TongChan(5));
-        System.out.println("Tổng Lẻ "+ TongLe(5));
+        System.out.println("Tổng Chẳng "+ TongChan(10));
+        System.out.println("Tổng Lẻ "+ TongLe(10));
     }
     public static double TongChan(int so) {
         double tong = 0;

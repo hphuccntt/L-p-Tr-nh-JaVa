@@ -185,7 +185,7 @@ public class Bai03_GiaiPTBac2_JFrame extends javax.swing.JFrame {
                 }
             }else {
              double x1 = -c / b;
-             System.out.println("Phuong trinh co nghiem x = " + x1);
+             txtkq.setText("Phuong trinh co nghiem x = " + x1);
             }
         }else{
             double delta = b * b - 4 * a * c;
