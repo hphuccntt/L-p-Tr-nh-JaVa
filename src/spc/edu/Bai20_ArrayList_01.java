@@ -4,6 +4,8 @@
  */
 package spc.edu;
 
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 /**
@@ -12,11 +14,16 @@ import java.util.ArrayList;
  */
 public class Bai20_ArrayList_01 {
     public static void main(String[] args) {
-        ArrayList<String> s = new ArrayList<String>();
+        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
+        ArrayList<String> s = new ArrayList<>();
         s.add("Hoàng");
         s.add("Khoa");
         s.add("Kiệt");
         s.add("Huy");
-        for(i = 1; i)
+        s.remove(2);
+        s.remove("Kiệt");
+        for(int i = 0; i < s.size();i++){
+            System.out.println(s.get(i));
+        }
     }
 }
