@@ -241,7 +241,7 @@ public class Bai03_GiaiPTBac2_JFrame extends javax.swing.JFrame {
             else{
                double x1 = (-b + Math.sqrt(delta)) / (2 * a);
                double x2 = (-b - Math.sqrt(delta)) / (2 * a);
-               txtkq.setText("Phuong Trinh Co 2 Nghiem Phan Biet x1 = "+ x1 + ", x2 = " +x2);
+               txtkq.setText("Phuong Trinh Co 2 Nghiem Phan Biet: x1 = " + x1 + ", x2 = " + x2);
                }
         }
         txtbang.setText(txtkq.getText());
