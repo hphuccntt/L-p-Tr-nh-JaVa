@@ -6,14 +6,13 @@ package spc.edu;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 /**
  *
  * @author Administrator
  */
 public class Bai03_NhapDaySoVaTinhTong_JFrame extends javax.swing.JFrame {
-        ArrayList<Integer> mang = new ArrayList<Integer>();
+        ArrayList<Integer> mang = new ArrayList<>();
         String inmang = "";
         int tong = 0,tongchan = 0,tongle = 0;
     /**
